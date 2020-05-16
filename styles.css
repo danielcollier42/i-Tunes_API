@@ -1,0 +1,75 @@
+body {
+    background-color: lightblue;
+
+    text-align: center;
+}
+
+
+* {
+    font-family: "Times New Roman";
+    padding: 10px;
+}
+
+#output {
+    display:none;
+    horiz-align: center;
+}
+
+.button {
+    background-color: lightblue;
+    horiz-align: center;
+    color: indigo;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: darkred;
+}
+
+.button:hover {
+    background-color: darkred;
+    color: lightcyan;
+}
+
+#artistName, #limit {
+    border: 2px solid darkred;
+    border-radius: 15px;
+    background-color: lightblue;
+    color: indigo;
+}
+
+#artistName {
+    width: 10%;
+}
+
+#limit {
+    width: 18%;
+}
+
+.label, .explicitIntro {
+    color: indigo;
+}
+
+#yesExplicit {
+    margin-left: -22px
+}
+
+table, td {
+    border: 2px solid darkred;
+}
+
+td {
+    padding: 20px;
+}
+
+table {
+    border-radius: 10px;
+    margin: 150px;
+    background-color: cornflowerblue;
+    padding: 50px;
+}
+
+h1 {
+    color: indigo;
+    font-family: "Sitka Heading";
+    font-size: 50px;
+    text-align: center;
+}

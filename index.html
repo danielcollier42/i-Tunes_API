@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>iTunes</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<h1>Search iTunes for the songs you love!</h1>
+
+<div>
+    <input type="text" class="input" id="artistName" placeholder="Enter Search Term">
+
+    <select class="selector" id="limit">
+        <option value="25">Select the number of songs you want to return</option>
+        <option value="50">50</option>
+        <option value="25">25</option>
+        <option value="10">10</option>
+    </select>
+</div>
+
+<button onclick="run()" class="button" id="searchButton" >SEARCH!</button>
+
+<table id="output"></table>
+
+</body>
+</html>
