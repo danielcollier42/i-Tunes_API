@@ -7,7 +7,7 @@ function run() {
 
 
     $.ajax({
-        url: 'https://itunes.apple.com/search?term=' + artist + "&limit=" + limit,
+        url: 'https://itunes.apple.com/search?term=' + encodeURIComponent(artist) + "&limit=" + limit,
         dataType: "json",
         success: process
     });
